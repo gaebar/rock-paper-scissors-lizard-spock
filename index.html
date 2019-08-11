@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="icon" type="image/png" href="images/favicon_atom_symbol.svg.png"> <!--favicon added -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" charset="utf-8"></script>
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+    <h2>The Official Game!</h2>
+    <img src="images/logo.png" alt="logo">
+  </header>
+
+  <main>
+    <section>
+
+      <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+
+      <div class="result">
+        <p>Press play to start</p>
+      </div>
+
+      <audio id="audio" src="audio/sheldonGame.mp3"></audio>
+      <button id="play"><span>Play</span></button>
+
+      <audio id="audio-instructions" src="audio/instructions.mp3"></audio>
+      <button id="play-instructions">Instructions</button>
+
+      <button id="reset"><span>Reset</span></button>
+
+      <div class="choices">
+        <div class="choice">
+          <img src="images/rock.svg" id="r">
+        </div>
+        <div class="choice">
+          <img src="images/paper.svg" id="p">
+        </div>
+        <div class="choice">
+          <img src="images/scissors.svg" id="s">
+        </div>
+        <div class="choice">
+          <img src="images/lizard.svg" id="l">
+        </div>
+        <div class="choice">
+          <img src="images/spock.svg" id="sp">
+        </div>
+        <p id="action-message">Make your choice</p>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>

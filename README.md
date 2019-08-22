@@ -2,6 +2,9 @@
 
 Rock, Paper, Scissors, Lizard, Spock is a variant of the all time famous game Rock, Paper, Scissors. It was introduced in The Big Bang Theory TV-Series. According to the main character, Sheldon Cooper, adding two more options reduces the probability that the game will result in a tie.
 
+See the game online at https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html
+
+
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 
 ### Timeframe & Team

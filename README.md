@@ -16,7 +16,7 @@ Get the user’s choice. Get the computer’s choice. Compare the two choices an
 ### Technology
 
 * HTML5
-* HTMLAudio
+* HTML Audio
 * Sass CSS
 * Vanilla ES6 JavaScript
 * Flexbox

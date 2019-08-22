@@ -64,3 +64,7 @@ The key idea of this program is to generate random numbers in the range (1-5) an
 
 #### Game Over
 ![Game Over](./images/gameover.png)
+
+ ___
+ 
+ ## Future Improvements

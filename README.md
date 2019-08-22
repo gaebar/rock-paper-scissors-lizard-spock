@@ -26,9 +26,26 @@ Get the user’s choice. Get the computer’s choice. Compare the two choices an
 * Git
 * GitHub
 
+ ### Installation
+ This game uses vanilla javascript and ES6 Javascript modules. There is no compilation step, but you might want to install the eslint packages in order to lint the code and check for formatting errors.
+ 
+ Clone this repository:
+ 
+ ``git clone https://github.com/gaebar/eleven-s-game``
+ 
+ Install dependencies:
+ 
+ ``npm install``
+ 
+ Start a local web server in the project root folder:
+ 
+ ``python3 -m http.server``
+ 
+ You should now be able to run the website from http://0.0.0.0:8000/index.html
 ___
 
 ## Game Rules & Instructions
+
 Scissors cut paper. Paper covers rock. Rock crushes lizard. Lizard poisons Spock. Spock smashes scissors. Scissors decapitate lizard. Lizard eats paper. Paper disproves Spock. Spock vaporizes rock. Rock crushes scissors.
 
 * Click Instructions to listen how to play from the voice of Sheldon Cooper

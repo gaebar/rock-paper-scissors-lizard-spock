@@ -1,7 +1,5 @@
 # SEI Hachathon - Rock Paper Scissors Lizard Spock Game from the Big Bang Theory Series - Fan art project
 
-Rock, Paper, Scissors, Lizard, Spock is a variant of the all time famous game Rock, Paper, Scissors. It was introduced in The Big Bang Theory TV-Series. According to the main character, Sheldon Cooper, adding two more options reduces the probability that the game will result in a tie.
-
 See the game online at https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html
 
 
@@ -46,7 +44,13 @@ ___
 
 ## Game Rules & Instructions
 
-Scissors cut paper. Paper covers rock. Rock crushes lizard. Lizard poisons Spock. Spock smashes scissors. Scissors decapitate lizard. Lizard eats paper. Paper disproves Spock. Spock vaporizes rock. Rock crushes scissors.
+Rock Paper Scissors Lizard Spock is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla.
+
+Sam Kass explains he created the expanded game because it seemed like most games of Rock Paper Scissors with people you know would end in a tie.
+
+Rock Paper Scissors Lizard Spock was first mentioned in the Season 2 episode, The Lizard-Spock Expansion, the title of which references the game.
+
+As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
 
 * Click Instructions to listen how to play from the voice of Sheldon Cooper
 * Click play to start the game versus the computer

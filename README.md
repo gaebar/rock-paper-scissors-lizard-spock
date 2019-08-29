@@ -1,8 +1,7 @@
 # SEI Hackathon
 
-## Rock Paper Scissors Lizard Spock Game from ``The Big Bang Theory`` series, a fan art project
-
-[Play the game](https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html)
+## Rock Paper Scissors Lizard Spock
+Game from ``The Big Bang Theory`` series, a fan art project. [Play the game](https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html).
 
 
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
@@ -11,20 +10,18 @@
 > 48h, solo
 
 ### The Brief
-Rock paper scissors is a classic two player game. Each player chooses either rock, paper, or scissors. The items are compared, and whichever player chooses the more powerful item wins. The possible outcomes are: Rock destroys scissors. Scissors cut paper. Paper covers rock. If there’s a tie, then the game ends in a dra
-The code will break the game into four parts:
+Rock paper scissors is a classic two player game. Each player chooses either rock, paper, or scissors. The items are compared, and whichever player chooses the more powerful item wins. The possible outcomes are: Rock destroys scissors. Scissors cut paper. Paper covers rock. If there’s a tie, then the game ends in a draw.
 
-Get the user’s choice. Get the computer’s choice. Compare the two choices and determine a winner. Start the program and display the results.
+The code will break the game into four parts: Get the user’s choice. Get the computer’s choice. Compare the two choices and determine a winner. Start the program and display the results.
 
-### Technology
+### Tech Stack
 
 * HTML5
 * HTML Audio
 * Sass CSS
 * Vanilla ES6 JavaScript
 * Flexbox
-* Git
-* GitHub
+* Git & GitHub
 
 ## Game Overview
 
@@ -81,9 +78,9 @@ The key idea of the program is to generate random numbers in the range (1-5) and
 ```javascript
 //select one random option from the array of choices
 function getComputerChoice() {
-    const choices = ['r', 'p', 's', 'l', 'sp']
-    const randomNumber = Math.floor(Math.random() * choices.length)
-    return choices[randomNumber]
+  const choices = ['r', 'p', 's', 'l', 'sp']
+  const randomNumber = Math.floor(Math.random() * choices.length)
+  return choices[randomNumber]
 }
 ```
 
@@ -92,28 +89,28 @@ I maintain a list of winning, losing and tying combinations, which are checked o
 ```javascript
 // maps the user and computer choices to a result
 function game(userChoice) {
-    const computerChoice = getComputerChoice()
+  const computerChoice = getComputerChoice()
 
-    switch (userChoice + computerChoice) {
-        case 'rs':
-        case 'rl':
-        case 'sps':
-        case 'spr':
-       // more cases
-        win(userChoice, computerChoice)
-        break
+  switch (userChoice + computerChoice) {
+    case 'rs':
+    case 'rl':
+    case 'sps':
+    case 'spr':
+    // more cases
+    win(userChoice, computerChoice)
+    break
 
-        case 'rr':
-        case 'pp':
-        case 'ss':
-        case 'll':
-        case 'spsp':
-        draw(userChoice, computerChoice)
-        break
+    case 'rr':
+    case 'pp':
+    case 'ss':
+    case 'll':
+    case 'spsp':
+    draw(userChoice, computerChoice)
+    break
 
-        default:
-        lose(userChoice, computerChoice)
-    }
+    default:
+    lose(userChoice, computerChoice)
+  } 
 }
 ```
 

@@ -25,25 +25,7 @@ Get the user’s choice. Get the computer’s choice. Compare the two choices an
 * Git
 * GitHub
 
- ### Installation
- This game uses vanilla javascript and ES6 Javascript modules. There is no compilation step, but you might want to install the eslint packages in order to lint the code and check for formatting errors.
- 
- Clone this repository:
- 
- ``git clone https://github.com/gaebar/eleven-s-game``
- 
- Install dependencies:
- 
- ``npm install``
- 
- Start a local web server in the project root folder:
- 
- ``python3 -m http.server``
- 
- You should now be able to run the website from http://0.0.0.0:8000/index.html
-___
-
-## Game Rules & Instructions
+## Game Overview
 
 Rock Paper Scissors Lizard Spock is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla.
 
@@ -61,7 +43,30 @@ As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizar
 
 ![Home Screen](./images/rr-cover.png)
 
-#### Gameplay
+
+ ### Installation
+ This game uses vanilla javascript and ES6 Javascript modules. There is no compilation step, but you might want to install the eslint packages in order to lint the code and check for formatting errors.
+ 
+ Clone this repository:
+ 
+ ``git clone https://github.com/gaebar/eleven-s-game``
+ 
+ Install dependencies:
+ 
+ ``npm install``
+ 
+ Start a local web server in the project root folder:
+ 
+ ``python3 -m http.server``
+ 
+ You should now be able to run the website from http://0.0.0.0:8000/index.html
+
+### Key Learnings
+This project was build in 48 hours, and it was one of the first times for me writing more complex vanilla JavaScript code.
+
+I have learned how to use javascript arrays and perform more complex string comparisons, also doing basic DOM manipulation.
+
+### Code Snippets
 
 The key idea of the program is to generate random numbers in the range (1-5) and associate them to the strings "ROCK", "PAPER", "SCISSORS", "LIZARD", and "SPOCK".
 
@@ -113,3 +118,8 @@ function game(userChoice) {
  ___
  
  ## Future Improvements
+
+ * two players mode
+ * better animation while the game in progress
+ * a more clear way to display the user and the computer choice
+

@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let computerScore = 0
   const userScoreSpan = document.getElementById('user-score')
   const computerScoreSpan = document.getElementById('computer-score')
-  const resultParaghraph = document.querySelector('.result > p')
+  const resultParagraph = document.querySelector('.result > p')
 
   const initialAudio = document.querySelector('#audio')
   const playBtn = document.querySelector('#play')
@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const sectionElement = document.querySelector('section')
 
-  const rockDiv= document.getElementById('r')
+  const rockDiv = document.getElementById('r')
   const paperDiv = document.getElementById('p')
   const scissorsDiv = document.getElementById('s')
   const lizardDiv = document.getElementById('l')
@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
   //select one random option from the array of choices
   function getComputerChoice() {
     const choices = ['r', 'p', 's', 'l', 'sp']
-    const randomNumber = Math.floor(Math.random() * 5)
+    const randomNumber = Math.floor(Math.random() * choices.length)
     return choices[randomNumber]
   }
   // translate letter choice to word
@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', () => {
     userScore = 0
     userScoreSpan.innerHTML = userScore
     computerScoreSpan.innerHTML = computerScore
-    resultParaghraph.innerHTML = 'Press Play to start a new game'
+    resultParagraph.innerHTML = 'Press Play to start a new game'
     sectionElement.classList.remove('started-playing')
     instructionsAudio.pause()
   })
@@ -70,7 +70,7 @@ window.addEventListener('DOMContentLoaded', () => {
     userScore++
     userScoreSpan.innerHTML = userScore
     computerScoreSpan.innerHTML = computerScore
-    resultParaghraph.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win!`
+    resultParagraph.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win!`
 
   }
 
@@ -79,12 +79,12 @@ window.addEventListener('DOMContentLoaded', () => {
     computerScore++
     computerScoreSpan.innerHTML = computerScore
     computerScoreSpan.innerHTML = computerScore
-    resultParaghraph.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lost!`
+    resultParagraph.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lost!`
   }
 
   // updates the interface when there is a draw
   function draw(userChoice, computerChoice) {
-    resultParaghraph.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw!`
+    resultParagraph.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw!`
   }
 
   // maps the user and computer choices to a result

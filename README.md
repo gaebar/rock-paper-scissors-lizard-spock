@@ -1,4 +1,4 @@
-# SEI Hachathon
+# SEI Hackathon
 
 ## Rock Paper Scissors Lizard Spock Game from ``The Big Bang Theory`` series, a fan art project
 
@@ -61,9 +61,49 @@ As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizar
 
 ![Home Screen](./images/rr-cover.png)
 
-#### Game Play
+#### Gameplay
 
-The key idea of this program is to generate random numbers in the range (1-5) and equate them to strings "ROCK", "PAPER", "SCISSORS", "LIZARD", and "SPOCK" to numbers respectively and a lot this random string to the computer's choice. It is then compared with the user's choice and declare a winner according to the rules above.
+The key idea of the program is to generate random numbers in the range (1-5) and associate them to the strings "ROCK", "PAPER", "SCISSORS", "LIZARD", and "SPOCK".
+
+```javascript
+//select one random option from the array of choices
+function getComputerChoice() {
+    const choices = ['r', 'p', 's', 'l', 'sp']
+    const randomNumber = Math.floor(Math.random() * choices.length)
+    return choices[randomNumber]
+}
+```
+
+I maintain a list of winning, losing and tying combinations, which are checked once the user has made their choice. It is then compared with the user's choice and the result is determined accordingly.
+
+```javascript
+// maps the user and computer choices to a result
+function game(userChoice) {
+    const computerChoice = getComputerChoice()
+
+    switch (userChoice + computerChoice) {
+        case 'rs':
+        case 'rl':
+        case 'sps':
+        case 'spr':
+       // more cases
+        win(userChoice, computerChoice)
+        break
+
+        case 'rr':
+        case 'pp':
+        case 'ss':
+        case 'll':
+        case 'spsp':
+        draw(userChoice, computerChoice)
+        break
+
+        default:
+        lose(userChoice, computerChoice)
+    }
+}
+```
+
 
 ![In Play](./images/ingame.png)
 

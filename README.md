@@ -34,6 +34,7 @@ Sam Kass explains he created the expanded game because it seemed like most games
 
 Rock Paper Scissors Lizard Spock was first mentioned in the Season 2 episode, The Lizard-Spock Expansion, the title of which references the game.
 
+### Instructions
 As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
 
 * Click ``Instructions`` to listen to Sheldon Cooper explaining how to play the game

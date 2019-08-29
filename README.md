@@ -41,7 +41,7 @@ As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizar
 * Click ``Restart`` to play another game
 
 
-![Home Screen](./images/rr-cover.png)
+![Home Screen](./screnshots/home-screen.png)
 
 
  ### Installation
@@ -110,10 +110,10 @@ function game(userChoice) {
 ```
 
 
-![In Play](./images/ingame.png)
+![In Play](./screnshots/ingame.png)
 
 #### Game Over
-![Game Over](./images/gameover.png)
+![Game Over](./screnshots/gameover.png) 
 
  ___
  

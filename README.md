@@ -1,7 +1,8 @@
-# SEI Hachathon - Rock Paper Scissors Lizard Spock Game from the Big Bang Theory Series - Fan art project
+# SEI Hachathon
+
+## Rock Paper Scissors Lizard Spock Game from ``The Big Bang Theory`` series, a fan art project
 
 See the game online at https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html
-
 
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 
@@ -52,17 +53,17 @@ Rock Paper Scissors Lizard Spock was first mentioned in the Season 2 episode, Th
 
 As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
 
-* Click Instructions to listen how to play from the voice of Sheldon Cooper
-* Click play to start the game versus the computer
-* Move the mouse over and choose between one of the 5 icons
-* To play again click restart
+* Click ``Instructions`` to listen to Sheldon Cooper explaining how to play the game
+* Click ``Play`` to start a game versus the computer
+* Chose one of the five options, and immediately see the result
+* Click ``Restart`` to play another game
 
 
 ![Home Screen](./images/rr-cover.png)
 
 #### Game Play
 
-The key idea of this program is to generate random numbers in the range (1-5) and equate them to strings "ROCK", "PAPER", "SCISSORS", "LIZARD", and "SPOCK" to numbers respectively and alot this random string to the computer's choice. It is then compared with the user's choice and declare a winner according to the rules above.
+The key idea of this program is to generate random numbers in the range (1-5) and equate them to strings "ROCK", "PAPER", "SCISSORS", "LIZARD", and "SPOCK" to numbers respectively and a lot this random string to the computer's choice. It is then compared with the user's choice and declare a winner according to the rules above.
 
 ![In Play](./images/ingame.png)
 

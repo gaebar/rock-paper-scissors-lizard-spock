@@ -2,7 +2,8 @@
 
 ## Rock Paper Scissors Lizard Spock Game from ``The Big Bang Theory`` series, a fan art project
 
-See the game online at https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html
+[Play the game](https://gaebar.github.io/rock-paper-scissors-lizard-spock/index.html)
+
 
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 
@@ -61,6 +62,10 @@ As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizar
  ``python3 -m http.server``
  
  You should now be able to run the website from http://0.0.0.0:8000/index.html
+
+### Deployments
+
+The website is automatically deployed to Github Pages.
 
 ### Key Learnings
 This project was build in 48 hours, and it was one of the first times for me writing more complex vanilla JavaScript code.

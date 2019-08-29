@@ -63,7 +63,7 @@ As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizar
  
  You should now be able to run the website from http://0.0.0.0:8000/index.html
 
-### Deployments
+### Deployment
 
 The website is automatically deployed to Github Pages.
 

@@ -39,6 +39,7 @@ As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizar
 
 * Click ``Instructions`` to listen to Sheldon Cooper explaining how to play the game
 * Click ``Play`` to start a game versus the computer
+* A two seconds counter starts
 * Chose one of the five options, and immediately see the result
 * Click ``Restart`` to play another game
 
